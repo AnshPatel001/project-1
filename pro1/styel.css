@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.news18.com/kannada/uploads/2022/10/AYODHYE-RAMA-MANDIR-new-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+nav .logo {
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+
+nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav .menu a:first-child {
+    color: orangered;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+section {
+
+}
+
+section h3 {
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+
+section h1 {
+    margin: 30px 0px 20px 0px;
+    font-size: 55px;
+    font-weight: 300;
+    text-shadow: 2px 1px 5px black;
+}
+
+section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+}
+
+section .but1 {
+    background: orangered;
+    color: white;
+}
+
+section .but1:hover {
+    background: transparent;
+    border: 1px solid orangered;
+
+}
+
+section .but2 {
+    border: 1px solid orangered;
+    color: white;
+}
+
+section .but2:hover {
+    background: orangered;
+}
+
+.change::after {
+    content: '';
+    animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext {
+    0%{content:"Ayodhya"}
+    25%{content:"Somnath"}
+    50%{content:"Dwarka"}
+    75%{content:"Kedarnath"}
+    100%{content:"Kashi Vishwanath"}
+}
