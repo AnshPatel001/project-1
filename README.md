@@ -1,33 +1,30 @@
 
-Sure, here's a template you can use for your README file for your first HTML/CSS project:
+# Hi, I'm Ansh! 👋
 
-Project Name
-Welcome to Indiam Temple!
 
-Description
-This project is my first attempt at creating a web page using HTML and CSS. It's a simple project aimed at practicing the basics of web development.
+# Project Title
 
-Features
-Responsive layout
-Basic styling with CSS
-Semantic HTML markup
-Usage
-Clone the repository:
+Project Name [Indian Temples]
 
-bash
-Copy code
-git clone https://github.com/yourusername/project-name.git
-Open index.html in your web browser.
 
-Screenshots
+## Deployment
 
-Technologies Used
-HTML
-CSS
-Future Development
-In the future, I plan to add the following features:
+To deploy this project run
 
-Improved styling
-Interactive elements with JavaScript
-Contributions
-Contributions are welcome! Feel free to submit pull requests or open issues if you have any suggestions or find any bugs.
+```bash
+ gh repo clone AnshPatel001/project-1
+```
+
+
+## Authors
+
+- [@AnshPatel001](https://github.com/AnshPatel001)
+
+
+## 🚀 About Me
+I'm learning full stack developer...
+
+
+## 🛠 Skills
+Javascript, HTML, CSS...
+
